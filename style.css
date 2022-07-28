@@ -114,3 +114,30 @@ img {
     border-radius: 10px;
     margin-bottom: 5px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    height: 401px;
+    display: flex;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: normal;
+    color: #1F2937;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div {
+    font-size: 24px;
+    font-weight: bold;
+    font-style:normal;
+    align-self: flex-end;
+}
