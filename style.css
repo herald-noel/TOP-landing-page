@@ -1,8 +1,12 @@
 * {
     padding: 0;
-    margin: auto;
+    margin: 0;
     width: 90%;
     box-sizing: border-box;
+}
+
+.main {
+    /* background-color: #1F2937; */
 }
 
 .header, .hero {
@@ -10,8 +14,14 @@
     justify-content: space-between;
 }
 
+.hero {
+    /* margin-top: 64px; */
+    /* font-size: 48px; */
+}
+
 ul {
-    list-style-type: none;
+    list-style-type: none;  
+    text-align: right;
 }
 
 a {
@@ -21,4 +31,9 @@ a {
 
 .right-link {
     display: flex;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
